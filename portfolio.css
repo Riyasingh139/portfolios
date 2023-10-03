@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'poppins', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    background-color: rgb(2, 2, 57);
+    align-items: center;
+    
+
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+
+}
+
+ul a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
+
+ul a :hover {
+    color: rgb(48, 249, 249);
+    font-size: 1.02rem;
+    transition: 0.2s ease-in-out;
+
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(23, 172, 172);
+    height: 1.4px;
+    margin: 40px 84px;
+}
+
+
+.left {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    align-items: center;
+
+
+
+}
+
+.firstsection>div {
+    width: 30%;
+
+}
+
+.leftsection {
+    /* margin: 70px 0; */
+    font-size: 2rem;
+}
+.leftsection .buttons{
+    padding: 50px 0;
+}
+.leftsection .btn{
+    padding: 10px;
+    background-color: rgb(7, 232, 157);
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 6px;
+    font-size: 10;
+    cursor: pointer;
+}
+
+
+
+
+.rightsection img {
+    width: 90%;
+    height: 100%;
+
+
+}
+
+.purple {
+    color: rgb(48, 249, 249);
+
+}
+
+.text-gray {
+    color: gray;
+    padding-left: 40px;
+
+}
+
+#element {
+    color: rgb(48, 249, 249);
+}
+
+/* secondsection */
+.secondsection {
+    max-width: 90vw;
+    margin: auto;
+    height: 80vh;
+    
+
+}
+
+.secondsection h1 {
+    font-size: 1.5rem;
+    padding-left: 40px;
+
+}
+
+.secondsection .horizontal-line {
+    background: #fff;
+    width: 76vw;
+    height: 2px;
+    margin: 56px ;
+    display: flex;
+    
+}
+.secondsection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: #fff;
+    margin: 0 120px;
+   
+}
+.image-top{
+    width:25px ;
+    height: 23px;
+    position: relative;
+    top: -25px;
+    left: -9px;
+  
+}
+.vertical-tittle{
+    position: relative;
+    top: 70px;
+    width: 220px;
+   
+
+}
+.vertical-desc{
+    position: relative;
+    top: 80px;
+    color: gray;
+    width: 150px;
+    font-size: 10px;
+}
+
+.services{
+    width: 80%;
+    margin: 5rem auto;
+    text-align: center;
+    
+}
+
+.services_blocks{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem auto;
+}
+
+.services_blocks ul{
+    list-style-type: none;
+    text-align: left;
+    padding: 2rem;
+}
+
+.services_blocks ul li{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.service_list{
+    background: linear-gradient(white, grey);
+    margin: 1rem 4rem;
+    border-radius: 0 0 2rem 2rem;
+    
+}
+
+.service_list .service_heading{
+    background: linear-gradient(aqua,black) ;
+    color: white;
+    padding: 2rem;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 0 0 2rem 2rem;
+}
+
+.shadow{
+    box-shadow: 1px 1px 10px black;
+}
+
+.projects{
+    margin: 5rem auto;
+    width: 80%;
+    text-align: center;
+}
+
+.projects .project_links{
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6rem;
+}
+
+.project_links .project_block{
+    padding: 1rem;
+    box-shadow: 1px 1px 20px grey;
+    border-radius: 20px;
+    color:white;
+    transition: .5s ease-in-out;
+}
+
+.project_block img{
+    width: 40%;
+}
+
+.project_block:hover{
+    transform: scale(1.1);
+    background: linear-gradient(to bottom right, aqua, black);
+    color: white;
+}
+   
+ footer{
+    background-color: #0e0e1a;
+  
+   
+ } 
+ .footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+    
+ } 
+ .footer ul{
+    list-style: none;
+ }
+ .footer >div{
+    width: 123px;
+ }
+ 
+ footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+ }
+ .footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+
+    
+ }
+ .footer-logo a img{
+    width: 18px;
+    /* padding: 30px; */
+    margin: 10px;
+ }
+ .linkdin a img{
+    width: 32px;
+ }
+ .youtube a img{
+    width: 40px;
+ }
+   
+   
+   
+
+    
+
+
+
+   
+   
